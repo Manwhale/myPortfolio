@@ -1,0 +1,96 @@
+/*header 1 main */
+h1{ 
+  text-align: center; 
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family: cursive;
+}
+/* header 2 control */
+h2{
+    font-size: 14px;
+    text-align: center;
+    font-family:monospace;
+}
+/*header 3 control */
+h3{
+    text-align: center;
+    font-family: fantasy, "Times New Roman", serif;
+}
+/* font color for <p>here</p> */
+p{
+    font-size:14px;
+    font-family:Verdana, sans-serif;
+}
+/* background visuals */
+body{
+    background-color: #deb887;
+   
+}
+/* main is in control of organization */
+main{
+    margin-left: 140px;
+    margin-right: 140px;
+}
+/* horizontal rule is getting a color declaired */
+hr{
+    border-color: #000000;
+}
+/* centers image */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+/* footer controls bottom of the page; important references should be placed here */
+footer{
+    background-color: #000000;
+    color: #c0c0c0;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+/* top of the website is being put in a border */
+header {
+    background-color:#000000;
+    color:#c0c0c0;
+    text-align: center;
+    margin-bottom: px;
+    font-family: 'bold', Times, serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+/* font change in item list */
+li {
+    font-family: monospace;
+    font-size: 14px;
+  }
+address{
+    text-align: center;
+}
+/* thematic break below */
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* unvisited link */
+a:link {
+    color: #000000;
+  }
+/* visited link */
+a:visited {
+    color: #00a2ff;
+  }
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+  }
+/* selected link */
+a:active {
+    color: #0000FF;
+  }
+
+/* above are changing the color interactions from <a></a> */
+ 
