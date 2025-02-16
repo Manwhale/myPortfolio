@@ -1,27 +1,32 @@
 /* Weeknd Aesthetic: Dark, Neon, Moody */
+/* Importing a sleek font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Global Styles */
 body {
-    background-color: #0d0d0d;
-    color: #e60000; /* Deep red text for contrast */
     max-width: 90%;
     margin: auto;
-    font-size: 1rem;
-    font-family: 'Poppins', sans-serif;
+    font-size: 1rem; /* Ensures readable text */
+    font-family: 'Poppins', sans-serif; /* Applying modern font */
+    background-color: #200f1a; /* Deep red/black theme */
+    color: #fff; /* White text for contrast */
 }
 
+/* Headers */
 h1, h2, p {
     text-align: center;
     word-wrap: break-word;
 }
 
+/* Image Styling */
 img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: auto;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(255, 0, 0, 0.8);
 }
 
+/* Layout */
 .container {
     display: flex;
     flex-direction: column;
@@ -29,58 +34,35 @@ img {
     justify-content: center;
 }
 
-/* Header & Footer */
-header, footer {
-    background-color: #1a1a1a;
-    color: #ff3333;
+/* Header */
+header {
+    background-color: #7a0c15; /* Deep Red */
+    color: #fff;
     text-align: center;
-    padding: 10px;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-
-/* Horizontal Rule */
-hr {
-    border: 1px solid #ff0000;
-}
-
-/* Links */
-a:link {
-    color: #ff3333;
-}
-a:visited {
-    color: #b30000;
-}
-a:hover {
-    color: #ffcc00;
-    text-shadow: 0 0 10px rgba(255, 204, 0, 0.8);
-}
-a:active {
-    color: #ff0000;
-}
-
-/* Button Styling */
-button {
-    background: linear-gradient(45deg, #ff0000, #990000);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
-    transition: all 0.3s ease-in-out;
-}
-button:hover {
-    background: #ffcc00;
-    color: #000;
-    box-shadow: 0 0 15px rgba(255, 204, 0, 0.8);
+    padding: 20px;
+    font-weight: 600;
 }
 
 /* Footer */
 footer {
-    background-color: #111;
-    color: #ff3333;
+    background-color: #7a0c15;
+    color: #c0c0c0;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+}
+
+/* Links */
+a {
+    color: #e50914; /* Netflix Red */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff4d4d;
+}
+
+/* Horizontal Rule */
+hr {
+    border-color: #ff0000;
 }
