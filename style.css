@@ -44,21 +44,13 @@ hr{
     border-color: #000000;
 }
 /* centers image */
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding-top: 20px;
-    padding-bottom: 10px;
-  }
+
 /* footer controls bottom of the page; important references should be placed here */
 footer{
     background-color: #000000;
     color: #c0c0c0;
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    
   }
 /* top of the website is being put in a border */
 header {
@@ -67,16 +59,12 @@ header {
     text-align: center;
     margin-bottom: px;
     font-family: 'bold', Times, serif;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    
   }
 /* font change in item list */
 
 /* thematic break below */
-hr{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+
 /* unvisited link */
 a:link {
     color: #000000;
