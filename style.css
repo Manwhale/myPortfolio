@@ -1,87 +1,112 @@
-
-/*image adjustment
-img{
-  height: auto;
-  width: 50%;
-  
-}
-*/
-/*header 1 main */
+/* General Styles */
 body {
     max-width: 90%;
     margin: auto;
-    font-size: 1rem; /* Ensures readable text */
+    font-size: 1rem;
+    background-color: #deb887; /* Background color */
+    font-family: Arial, sans-serif;
+    color: #333;
 }
 
+/* Header */
+header {
+    background-color: #000000;
+    color: #c0c0c0;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Text Styling */
 h1, h2, p {
-    text-align: center; /* Centers text properly */
-    word-wrap: break-word; /* Prevents text overflow */
+    text-align: center;
+    word-wrap: break-word;
 }
 
+/* Image Styling */
 img {
-    max-width: 100%; /* Ensures images scale properly */
+    max-width: 100%;
     height: auto;
     display: block;
-    margin: auto;
+    margin: 20px auto;
+    border-radius: 10px; /* Softens image corners */
 }
 
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Container for Flexbox Layout */
 .container {
     display: flex;
-    flex-direction: column; /* Stacks elements properly on mobile */
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-
-/* background visuals */
-body{
-    background-color: #deb887;
-   
-}
-/* main is in control of organization */
-
-/* horizontal rule is getting a color declaired */
-hr{
+/* Horizontal Rule (Divider Line) */
+hr {
     border-color: #000000;
 }
-/* centers image */
 
-/* footer controls bottom of the page; important references should be placed here */
-footer{
+/* Footer */
+footer {
     background-color: #000000;
     color: #c0c0c0;
     text-align: center;
-    
-  }
-/* top of the website is being put in a border */
-header {
-    background-color:#000000;
-    color:#c0c0c0;
-    text-align: center;
-    margin-bottom: px;
-    font-family: 'bold', Times, serif;
-    
-  }
-/* font change in item list */
+    padding: 10px;
+    margin-top: 20px;
+}
 
-/* thematic break below */
+/* Link Styling */
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
 
-/* unvisited link */
+/* Unvisited Link */
 a:link {
     color: #000000;
-  }
-/* visited link */
+}
+
+/* Visited Link */
 a:visited {
     color: #00a2ff;
-  }
-/* mouse over link */
+}
+
+/* Hover Effect */
 a:hover {
     color: #FF00FF;
-  }
-/* selected link */
+}
+
+/* Active Link */
 a:active {
     color: #0000FF;
-  }
+}
 
-/* above are changing the color interactions from <a></a> */
- 
+/* Responsive Design: Adjust layout for smaller screens */
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 0.9rem;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    img {
+        width: 80%; /* Scales images on small screens */
+    }
+}
