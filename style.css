@@ -39,10 +39,7 @@ body{
    
 }
 /* main is in control of organization */
-main{
-    margin-left: 140px;
-    margin-right: 140px;
-}
+
 /* horizontal rule is getting a color declaired */
 hr{
     border-color: #000000;
@@ -75,13 +72,7 @@ header {
     padding-bottom: 5px;
   }
 /* font change in item list */
-li {
-    font-family: monospace;
-    font-size: 14px;
-  }
-address{
-    text-align: center;
-}
+
 /* thematic break below */
 hr{
     margin-top: 20px;
