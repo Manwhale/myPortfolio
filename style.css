@@ -1,3 +1,28 @@
+body {
+    max-width: 90%;
+    margin: auto;
+    font-size: 1rem; /* Ensures readable text */
+}
+
+h1, h2, p {
+    text-align: center; /* Centers text properly */
+    word-wrap: break-word; /* Prevents text overflow */
+}
+
+img {
+    max-width: 100%; /* Ensures images scale properly */
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stacks elements properly on mobile */
+    align-items: center;
+    justify-content: center;
+}
+
 /*image adjustment*/
 img{
   height: auto;
