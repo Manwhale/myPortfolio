@@ -18,12 +18,14 @@ h1, h2, p {
     word-wrap: break-word;
 }
 
-/* Image Styling */
+/* Image Styling with Red Glow */
 img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: auto;
+    border-radius: 10px; /* Slightly rounded corners for a smooth look */
+    box-shadow: 0 0 20px 5px rgba(255, 0, 0, 0.8); /* Red glow effect */
 }
 
 /* Layout */
